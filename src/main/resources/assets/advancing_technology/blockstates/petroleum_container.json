@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "advancing_technology:block/petroleum_container"
+    },
+    "facing=south": {
+      "model": "advancing_technology:block/petroleum_container",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "advancing_technology:block/petroleum_container",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "advancing_technology:block/petroleum_container",
+      "y": 90
+    }
+  }
+}

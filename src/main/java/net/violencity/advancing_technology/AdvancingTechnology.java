@@ -8,6 +8,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.violencity.advancing_technology.block.ModBlocks;
+import net.violencity.advancing_technology.item.ModItems;
 import org.slf4j.Logger;
 
 @Mod(AdvancingTechnology.MOD_ID)
@@ -17,6 +19,9 @@ public class AdvancingTechnology {
 
     public AdvancingTechnology() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -1,0 +1,14 @@
+{
+  "item.advancing_technology.raw_uranium": "Raw Uranium",
+  "item.advancing_technology.uranium": "Chunk of Uranium",
+
+
+  "block.advancing_technology.uranium_block": "Block of Uranium",
+  "block.advancing_technology.raw_uranium_block": "Block of Raw Uranium",
+  "block.advancing_technology.uraninite": "Uraninite",
+  "block.advancing_technology.petroleum_container": "Petroleum Container",
+
+
+
+  "itemGroup.fuel": "Fuel Related Items"
+}

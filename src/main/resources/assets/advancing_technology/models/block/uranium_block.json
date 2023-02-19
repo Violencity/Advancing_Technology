@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "advancing_technology:block/uranium_block"
+  }
+}
